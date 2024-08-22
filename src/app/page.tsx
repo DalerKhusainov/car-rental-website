@@ -1,12 +1,13 @@
-import Image from "next/image";
+import Hero from "@/components/Hero";
+import BookFrom from "@/components/BookFrom";
+import PlanTrip from "@/components/PlanTrip";
 
 export default function Home() {
   return (
     <main>
-      <div>
-        <div className="size-[100px] bg-gray-300 m-10 rounded-md shadow-buttonPrimary"></div>
-        <h1 className="">Hello</h1>
-      </div>
+      <Hero />
+      {/* <BookFrom /> */}
+      <PlanTrip />
     </main>
   );
 }

@@ -13,13 +13,13 @@
 
 @layer components {
   .headingPrimary {
-    @apply text-3xl text-textBlack font-poppins font-bold tablet:text-4xl;
+    @apply text-3xl text-textBlack font-poppins font-extrabold tablet:text-4xl;
   }
   .headingSecondary {
     @apply text-2xl text-textBlack font-poppins font-bold tablet:text-3xl;
   }
   .headingTertiary {
-    @apply text-xl text-textBlack font-rubik font-bold tablet:text-2xl;
+    @apply text-xl text-textBody font-rubik font-bold tablet:text-2xl;
   }
   .textBodyLarge {
     @apply text-sm text-textBody font-medium font-rubik;
